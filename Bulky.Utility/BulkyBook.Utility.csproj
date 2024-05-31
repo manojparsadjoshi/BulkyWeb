@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Product\60d4706d-06ec-49f1-b9e8-a82f60c075eb.png" />
+    <None Remove="Images\Product\ecd19b49-54cc-44b2-83c5-5bf4f7f3739b.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Product\60d4706d-06ec-49f1-b9e8-a82f60c075eb.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Images\Product\ecd19b49-54cc-44b2-83c5-5bf4f7f3739b.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
