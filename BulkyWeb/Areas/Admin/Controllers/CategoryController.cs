@@ -10,8 +10,8 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoryController : Controller
     {
-        private readonly UnitOfWork _unitOfWork;
-        public CategoryController(UnitOfWork unitOfWork)
+        private readonly IUnitOfWork _unitOfWork;
+        public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
